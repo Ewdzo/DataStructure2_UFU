@@ -3,7 +3,9 @@ public class App {
 		String text = "O rato roeu a roupa do rei de roma.";
 		String[] substrings = {"ro", "rat", " ", "de "};
 
-		System.out.println( RabinKarp.search(text, substrings[0], 256, 101) );
+		for(String substring: substrings){
+			System.out.println( RabinKarp.search(text, substring, 256, 101) );
+		}
 
 
     }
