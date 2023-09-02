@@ -11,9 +11,12 @@ public class App {
         Arrays.sort(sortedNumbers);
 
 
-        ATV01.search(numbers, 100);
-        ATV02.occurrences(numbers, 100);
-        ATV03.binarySearch(sortedNumbers, 100);
-        ATV04.binaryOccurrences(sortedNumbers, 100);
+        //ATV01.search(numbers, 100);
+        //ATV02.occurrences(numbers, 100);
+        //ATV03.binarySearch(sortedNumbers, 100);
+        //ATV04.binaryOccurrences(sortedNumbers, 100);
+
+
+        Recursive.binarySearch(sortedNumbers, 100, 0, (sortedNumbers.length));
     }
 }
